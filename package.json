@@ -1,0 +1,17 @@
+{
+  "name": "microfrontends",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\"",
+    "build": "yarn workspaces run build"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "wsrun": "^5.2.4"
+  }
+}
