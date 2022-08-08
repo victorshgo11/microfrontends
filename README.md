@@ -3,7 +3,7 @@
 ```bash
 
 # Abra o terminal/CMD e clone este repositório
-$ git clone https://github.com/victorshgo11/poc-microfrontends.git
+$ git clone https://github.com/victorshgo11/microfrontends.git
 
 
 ```
